@@ -2,6 +2,7 @@ version: '3'
 services:
   nginx:
     image: nginx:1.19.1
+    platform: linux/x86_64
     container_name: php_simple_memo_nginx
     ports:
       - 8080:8080
