@@ -1,4 +1,5 @@
 FROM php:7.4-fpm
+# FROM mysql/mysql-server:latest
 COPY php.ini /usr/local/etc/php/
 
 # vim install
